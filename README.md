@@ -14,9 +14,8 @@
 - npm i react-router-dom
 
 
-# Karna ada yang pake bootstrap dan tailwind dicampur padukan DUAR, ketikan ini:
+# tailwind ketikan ini:
 
-- npm install react-bootstrap bootstrap
 - npm install -D tailwindcss postcss autoprefixer
 - npx tailwindcss init -p
 
