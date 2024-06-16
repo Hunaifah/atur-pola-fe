@@ -1,0 +1,137 @@
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.onboarding {
+  padding: 40px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  background: rgba(254, 254, 254, 0.3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(17px); /* Apply blur effect */
+  border-radius: 20px;
+}
+
+.headeronboarding img {
+  width: 53px;
+  height: 53px;
+}
+
+.headeronboarding {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 0px;
+  color: var(--foundation-primary-green-normal-active, #20584a);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 24px */
+  letter-spacing: -1.2px;
+}
+
+.judul {
+  height: 24px;
+  width: 359px;
+  margin-top: auto;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: bold;
+  color: #20584a;
+  padding: 4px;
+  border-radius: 10px;
+}
+
+.formonboarding {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center; /* Untuk menempatkan input di tengah horizontal */
+  padding: 5px;
+}
+
+.Label1 {
+  margin-left: 5px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  display: flex;
+  color: #20584a;
+  font-weight: 500;
+  flex-direction: column;
+  margin-bottom: 8px;
+  align-items: flex-start; /* Menjadikan konten berada di sebelah kiri */
+}
+
+.horizontal-fields {
+  display: flex;
+  gap: 20px;
+}
+
+.Label2 {
+  margin-left: 5px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  display: flex;
+  color: #20584a;
+  font-weight: 500;
+  flex-direction: column;
+}
+
+.inputform {
+  padding: 16px;
+  width: 375px;
+  height: 44px;
+  box-sizing: border-box;
+  border: 1px solid #909090;
+  border-radius: 8px;
+}
+
+.inputform2 {
+  padding: 16px;
+  width: 107px;
+  height: 44px;
+  box-sizing: border-box;
+  border: 1px solid #909090;
+  border-radius: 8px;
+}
+
+.div-submit {
+  border: none;
+  border-radius: 24px;
+  background-color: #2c7865;
+  color: #fff;
+  padding: 8px 40px;
+  font-size: 16px;
+  margin-top: 20px; /* Mengatur jarak dari konten di atasnya */
+}
+
+.div-submit:hover {
+  background-color: #1e6a57;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.content h1 {
+  width: 560px;
+  font-size: 40px;
+  font-weight: 600;
+  color: #ffff;
+}
+
+.content p {
+  margin-top: 40px;
+  width: 75%;
+  font-size: 16px;
+  color: #ffff;
+}

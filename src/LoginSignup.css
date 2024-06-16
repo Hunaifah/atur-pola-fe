@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.body {
+  background: url(/src/assets/background.png);
+  background: linear-gradient(rgba(255, 152, 0, 0.6) rgba(118, 167, 165, 0.6));
+  font-family: Arial, sans-serif;
+  height: 100vh;
+}
+
+.container-login {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+
+.sign-up {
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.28);
+  backdrop-filter: blur(25px);
+  padding: 50px;
+}
+
+.header {
+  margin-bottom: 15px;
+}
+
+.header img {
+  margin: auto;
+}
+
+.title {
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.title .part1 {
+  color: #20584a;
+}
+
+.title .part2 {
+  color: #ff9800;
+}
+
+.form-group {
+  position: relative;
+}
+
+.password-toggle-icon {
+  position: absolute;
+  right: 14px;
+  top: 52px;
+  transform: translateY(-50%);
+  color: #909090;
+  cursor: pointer;
+}
+
+label {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  display: flex;
+  color: #20584a;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+.input {
+  padding: 10px;
+  width: 375px;
+  box-sizing: border-box;
+  border: 1px solid #909090;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.input::placeholder {
+  margin-left: 10px; /* Menambahkan padding kiri sebagai margin */
+}
+
+.btn-login {
+  font-family: "DM Sans", sans-serif;
+  border: none;
+  border-radius: 24px;
+  background-color: #2c7865;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  width: 180px;
+  height: 38px;
+  margin: 10px 0 15px 0;
+}
+
+.btn-login:hover {
+  background-color: #226c59;
+}
+
+.content-login {
+  margin: 0;
+}
+
+.content-login h1 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  text-align: left;
+  line-height: 120%; /* 76.8px */
+  width: 542px;
+}
+
+.content-login p {
+  color: #fff;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+  line-height: 120%; /* 19.2px */
+  width: 533px;
+}
+
+.forgot-password {
+  color: var(--Foundation-Primary-Green-Dark, #0f2a23);
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 16.8px */
+}
+
+.forgot-password span a {
+  text-decoration: none;
+  font-weight: 600;
+  font-family: "DM Sans", sans-serif;
+  color: #2c7865;
+}
